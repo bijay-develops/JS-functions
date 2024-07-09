@@ -11,7 +11,7 @@ var x; // Declare x
 // JavaScript only hoists declarations, not initializations.
 var x = 5; // Initialize x
 var y = 7; // Initialize y
-elem = document.getElementById("demo"); // Find an element 
+elem = document.getElementById("functionHoisting2"); // Find an element 
 elem.innerHTML = x + " " + y;       // Display x and y
 
 
@@ -19,6 +19,6 @@ elem.innerHTML = x + " " + y;       // Display x and y
 // Because of hoisting, y has been declared before it is used, but because initializations are not hoisted, the value of y is undefined.
 var x = 5; // Initialize x
 var y;    // Declare y
-elem = document.getElementById("demo"); // Find an element 
+elem = document.getElementById("functionHoisting3"); // Find an element 
 elem.innerHTML = x + " " + y;       // Display x and y
 y = 7;   // Assign 7 to y
