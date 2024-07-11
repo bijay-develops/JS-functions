@@ -10,7 +10,12 @@ function myFunction(a, b) {
   document.getElementById("functionsAreObjects1").innerHTML = myFunction(4, 3);
 
 
+  
   function myFunction(a, b) {
     return a * b;
   }
-  document.getElementById("functionAreObjects2").innerHTML = myFunction.toString();
+  document.getElementById("functionsAreObjects2").innerHTML = myFunction.toString();
+//   The toString() Method
+// The toString() method returns the function as a string:
+
+// function myFunction(a, b) { return a * b; }
